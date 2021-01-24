@@ -1,0 +1,39 @@
+div {
+    display: inline-block;
+    width: 1000px;
+    background-color: antiquewhite;
+    margin:100px calc (50% - 500px);
+
+
+}
+    @media (max-widht: 1100px){
+    div {
+
+    width: 800px;
+    background-color:aqua;
+    margin: 100px calc (50% - 400px);
+
+}
+
+}
+    @media (max-widht: 1000px){
+    div {
+
+    width: 600px;
+    background-color:yellow;
+    margin: 100px calc (50% - 300px);
+
+@media (max-widht: 700px){
+    div {
+    
+    width: 400px;
+    background-color:violet;
+    margin: 100px calc (50% - 200px);
+
+@media (max-widht: 480px){
+        div {
+        
+        width: 100px;
+        background-attachment: lightblue;
+        margin: 100px 0;
+        padding: 20px;
