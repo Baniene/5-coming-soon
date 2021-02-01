@@ -47,7 +47,9 @@
 }
 
 .hero .mouse {
+
 }
+
  
 
 /* main section */
@@ -82,7 +84,7 @@ main .block-description > a:hover {
     text-decoration: underline;
 }
 
-@media (max-width. 900px) {
+@media (max-width: 900px) {
     .left-column {
         width: 100%;
         margin-bottom: 60px;
@@ -97,3 +99,11 @@ main .block-description > a:hover {
 
 
 /* footer section */
+
+.socials>*{
+    margin-right: 50px;
+}
+.liner{
+
+    display: inline-block;
+}
