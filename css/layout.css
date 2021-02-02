@@ -34,9 +34,10 @@
 
 @media (max-width: 680px) {
     .container > .row,
-    .container > .short-row,
+    .container > .short-row{
         width: 100px;
         margin: 0;
         padding: 0 20px;
+    
     }
 }
