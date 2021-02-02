@@ -1,7 +1,7 @@
 
 function renderSocials(selector, data) {
     //input validation
-    if (typeof selector !== 'string ' ||
+    if (typeof selector !== 'string' ||
     selector === '')  {
         console.error('ERROR: netinkamas selectoriaus parametras.'); 
         return false;
